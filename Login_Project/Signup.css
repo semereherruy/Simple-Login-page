@@ -1,0 +1,54 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+    padding : 0;
+    margin: 0;
+}
+body{
+    background-color:gold;
+    min-height: 100vh;
+}
+form{
+    background-color: darkslategray;
+    width: 350px;
+    height: 550px;
+    padding: 75px 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    text-align: center;
+    color: gold;
+    margin-bottom: 45px;
+    font-size: 40px; 
+}
+.one {
+    border-bottom: 2px solid white;
+    position: relative;
+    margin: 35px 0;
+}
+.one input{
+    background: none;
+    border : none;  /** starting */
+    outline: none;
+    width: 100px;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+}
+.signup{
+    transition: 0.5s;
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    background: gold;
+    background-size: 200px;
+    color: rgb(87, 87, 87);
+}
+.signup:hover{
+    background-position: right;
+    font-size: 17px;
+}
